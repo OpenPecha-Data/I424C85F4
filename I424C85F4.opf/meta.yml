@@ -1,25 +1,52 @@
 id: I424C85F4
+legacy_id: PF52FA1ED
+ocr_import_info:
+  bdrc_scan_id: W3CN10628
+  source: bdrc
+  ocr_info:
+    timestamp: '2022-03-25T11:02:01'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2022-03-25T11:20:41+00:00'
-last_modified: '2022-06-16T08:00:45.150311+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-03T12:18:33.287078+00:00'
+last_modified: 2022-09-03 20:19:10.487083
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W3CN10628
+  id: http://purl.bdrc.io/resource/W3CN10628
+  status: http://purl.bdrc.io/admindata/StatusReleased
+  access: http://purl.bdrc.io/admindata/AccessOpen
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW3CN10628
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
   title: རྫོགས་རིམ་རིམ་ལྔ་གསལ་སྒྲོན།
-  author: ''
-  base:
-    017E:
-      image_group_id: I3CN10630
-      title: ''
-      total_pages: ''
-      order: 1
-      base_file: 017E.txt
-statistics: {}
-quality: {}
+  author: ཙོང་ཁ་པ་བློ་བཟང་གྲགས་པ།
+statistics:
+  ocr_word_mean_confidence_index: 0.9745123373568285
+  ocr_word_median_confidence_index: 0.99
+quality: null
+bases:
+  I3CN10630:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN10630
+      total_pages: 476
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I3CN10630.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.99
+      ocr_word_mean_confidence_index: 0.9745123373568285
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
